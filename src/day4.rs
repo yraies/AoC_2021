@@ -80,12 +80,6 @@ impl BingoBoard {
         }
     }
 
-    pub fn unmark(&mut self, number: u64) {
-        if let Some(idx) = self.content.iter().position(|c| *c == number) {
-            self.marks[idx] = false;
-        }
-    }
-
     pub fn score(&self) -> u64 {
         let mut score = 0;
         for (idx, marked) in self.marks.iter().enumerate() {

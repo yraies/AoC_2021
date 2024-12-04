@@ -39,8 +39,45 @@ path = "src/day8.rs"
 name = "day9"
 path = "src/day9.rs"
 
+[[bin]]
+name = "day10"
+path = "src/day10.rs"
+
+[[bin]]
+name = "day11"
+path = "src/day11.rs"
+
+[[bin]]
+name = "day12"
+path = "src/day12.rs"
+
+[[bin]]
+name = "day13"
+path = "src/day13.rs"
+
+[[bin]]
+name = "day14"
+path = "src/day14.rs"
+
+[[bin]]
+name = "day15"
+path = "src/day15.rs"
+
+[[bin]]
+name = "day16"
+path = "src/day16.rs"
+
+[[bin]]
+name = "day17"
+path = "src/day17.rs"
+
+[[bin]]
+name = "day18"
+path = "src/day18.rs"
+
 [dependencies]
 aoc-runner = "0.3.0"
 aoc-runner-derive = "0.3.0"
 itertools = "0.10.1"
 regex = "1.5.4"
+pom = "3.2.*"
